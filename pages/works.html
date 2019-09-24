@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="user">
+                <div class="userInfo">
+                    <img src="../img/profile.jpg" alt="" width="60%;" class="img-profile">
+                    <p>Bienvenida</p>
+                    <p id="userName">Jessica</p>    
+                </div>
+                
+                <div class="listas">
+                    <button class="add">Añadir Nueva Lista</button>
+                    <ul>    
+                        <li>Trabajo Septiembre</li>
+                        <li>Beca</li>         
+                    </ul>
+                </div>
+            </div>
+
+            <div class="toDolist">
+                <div class="title">
+                    <h3>Lista de Tareas Bootcamp</h3>
+                </div>
+                <div class="inputList">
+                    <form id="tareas" class="tarea">
+                        <input type="text" name="" id="task" placeholder="Ingrese nueva tarea" class="inputTask">
+                       <button type="submit"  class="btn-task" id="crear">Crear Tarea</button>
+                    </form>
+                </div>
+                
+                <div  id="list" class="list-task" >
+                    <h2>Mis Tareas Pendientes</h2>
+                   <p id="tasks"></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="../js/script.js"></script>
+    </body>
+</html>
